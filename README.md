@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Java when iterating over an array.  The error occurs in the first loop of the provided code sample, where the loop condition should be strictly less than the array length to avoid accessing the index beyond the bounds of the array. The solution shows how to correct this by changing the condition to `i < arr.length`.
